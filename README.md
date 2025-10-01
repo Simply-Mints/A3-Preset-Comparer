@@ -1,9 +1,16 @@
 # A3-Preset-Comparer
-A lightweight utility designed for Arma 3 that allows users to quickly compare new presets against a master preset, ensuring no required mods are missing.
+A lightweight utility designed for Arma 3 that allows users to quickly compare new presets against a reference preset, ensuring no required mods are missing.
 
 --- HOW TO USE ---
 
-Load the left side and the right side with a preset (The side that the preset goes to is very important!) and click Compare.
+Load a preset into both the left (Reference) and right (Target) sides. The side you load each preset into is very important.
 
-The left side is considered the master preset. Once comparsion is completed addons highlighted in red are missing addons.
-The right side is considered the slave preset. Once comparsion is completed addons highlighted in light blue are extra addons.
+Click Compare.
+
+The left side is the Reference preset.
+
+After comparison, addons highlighted in red are missing from the Reference.
+
+The right side is the Target preset.
+
+After comparison, addons highlighted in light blue are extra in the Target.
